@@ -1,10 +1,12 @@
 # Simple ETS Reader
 
-This custom implementation is heavily based on source code of Bio-Formats library and specifically on ETS format parsing scheme implemented in it.
+This custom implementation is heavily based on the source code of the Bio-Formats library, specifically on the ETS format parsing scheme implemented in it.
 
-The idea is to simplify and speed-up I/O by using python functions and libraries instead of using Bio-Formats python wrapper around the JAVA source code.
+The goal is to simplify and speed up I/O by utilizing Python functions and libraries, rather than using the Bio-Formats Python wrapper around the JAVA source code.
+Additionally, this tool can be helpful for those who wish to recover raw data from an ETS file when the VSI file is lost.
 
-Current raw implementation only supports reading *grayscale* videos acquired by certain microscopes alongside with simple meta data.
+The current raw implementation supports only the reading of grayscale videos acquired by certain microscopes, along with simple metadata from the ETS file.
+As of now, parsing stored image pyramids is not supported.
 
 ## Usage
 
