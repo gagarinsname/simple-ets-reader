@@ -8,6 +8,28 @@ Additionally, this tool can be helpful for those who wish to recover raw data fr
 The current raw implementation supports only the reading of grayscale videos acquired by certain microscopes, along with simple metadata from the ETS file.
 As of now, parsing stored image pyramids is not supported.
 
+
+## Installation
+
+1. Prerequisites:
+- Anaconda OR python>=3.8 installed on your machine.
+- All the necessary dependencies listed in requirements.txt.
+
+2. To install these requirements, clone this repository and install dependencies.
+```bash
+git clone https://github.com/gagarinsname/simple-ets-reader
+```
+3. (Optional) Set up separate anaconda environment:
+```bash
+conda create -n ets python==3.9
+```
+4. Install requirements and the package itself:
+```bash
+cd simple-ets-reader
+pip install -r requirements.txt
+pip install -e .
+```
+
 ## Usage
 
 1. Read binary ETS file and its basic metadata
