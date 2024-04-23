@@ -1,6 +1,6 @@
 # Simple ETS Reader
 
-This custom implementation is heavily based on the source code of the Bio-Formats library, specifically on the ETS format parsing scheme implemented in it.
+This custom implementation is heavily inspyred by the source code of the [Bio-Formats](https://github.com/ome/bioformats/) library, specifically on the ETS format parsing scheme implemented in it.
 
 The goal is to simplify and speed up I/O by utilizing Python functions and libraries, rather than using the Bio-Formats Python wrapper around the JAVA source code.
 Additionally, this tool can be helpful for those who wish to recover raw data from an ETS file when the VSI file is lost.
